@@ -5,6 +5,7 @@ class Home extends Component {
     return (
       
       <div>
+        {/* creating a header file */} 
         <header id="header" class="fixed-top " >
           <div class="container d-flex align-items-center justify-content-between">
 
@@ -12,6 +13,7 @@ class Home extends Component {
 
             <nav class="nav-menu d-none d-lg-block">
               <ul>
+                {/* Nav-bar list */}
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
@@ -120,7 +122,7 @@ class Home extends Component {
           </div>
 
         </div>
-
+{/* Client Section */}
 
         <section id="clients" class="clients" />
         <div class="container" data-aos="zoom-in" />
